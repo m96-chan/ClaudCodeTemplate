@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(test:*)",
+      "Bash(python:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh auth status:*)",
+      "Bash(gh auth login:*)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(pytest:*)",
+      "Bash(black:*)",
+      "Bash(ruff check:*)",
+      "Bash(git add:*)",
+      "Bash(git restore:*)",
+      "Bash(where:*)",
+      "Bash(proctap-mic-mix:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(pip install:*)",
+      "Bash(timeout:*)",
+      "Bash(mypy:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
