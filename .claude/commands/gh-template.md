@@ -10,11 +10,16 @@ description: Create a full GitHub template set inside .github/
 2. mainにチェックアウトし、pullを行い、最新のリモートの状態を取得する。
 3. タスクの内容を元に、適切な命名でブランチを作成、チェックアウトする（例: feat/add-github-templates）。
 
-4. 以下のファイルを.github/ディレクトリ内に作成する。　【重要】TDDができるようなテンプレートにすること
+4. 以下のファイルを.github/ディレクトリ内に作成する。【重要】TDDができるようなテンプレートにすること
 
-    - .github/PULL_REQUEST_TEMPLATE.md
-    - .github/ISSUE_TEMPLATE/bug_report.md
-    - .github/ISSUE_TEMPLATE/feature_request.md
+   ファイル作成前に以下を確認:
+   - 既存のテンプレートファイルが存在する場合は、ユーザーに上書き確認を行う
+   - ユーザーが拒否した場合は、既存ファイルを保持したまま処理を継続
+
+   作成するファイル:
+   - .github/PULL_REQUEST_TEMPLATE.md
+   - .github/ISSUE_TEMPLATE/bug_report.md
+   - .github/ISSUE_TEMPLATE/feature_request.md
 
 5. 作成したファイルを適切な粒度でコミットする。
 

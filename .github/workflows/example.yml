@@ -1,0 +1,34 @@
+# このファイルはサンプルです。プロジェクトに応じてカスタマイズしてください。
+# テンプレートとして使用する際は、このファイルを削除するか、プロジェクトに合わせて編集してください。
+
+name: CI
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup environment
+        run: echo "プロジェクトに応じて環境セットアップを追加してください"
+
+      - name: Run tests
+        run: echo "テストコマンドをここに追加してください (例: npm test, pytest, cargo test など)"
+
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run linter
+        run: echo "Lintコマンドをここに追加してください (例: npm run lint, ruff check, clippy など)"
