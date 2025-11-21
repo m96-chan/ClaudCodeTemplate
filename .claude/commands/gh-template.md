@@ -10,7 +10,7 @@ description: Create a full GitHub template set inside .github/
 2. mainにチェックアウトし、pullを行い、最新のリモートの状態を取得する。
 3. タスクの内容を元に、適切な命名でブランチを作成、チェックアウトする（例: feat/add-github-templates）。
 
-4. 以下のファイルを.github/ディレクトリ内に作成する。
+4. 以下のファイルを.github/ディレクトリ内に作成する。　【重要】TDDができるようなテンプレートにすること
 
     - .github/PULL_REQUEST_TEMPLATE.md
     - .github/ISSUE_TEMPLATE/bug_report.md

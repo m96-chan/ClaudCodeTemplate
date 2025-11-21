@@ -1,17 +1,11 @@
 ---
-description: GitHub Issueを元にTDDでタスクを遂行し、PRを作成する
+description: GitHub Issue BUGを作成する。
 ---
 
-gh issue view $ARGUMENTS でGitHubのIssueの内容を確認し、タスクの遂行を行なってください。
+$ARGUMENTS の内容を確認し、タスクの遂行を行なってください。
 タスクは以下の手順で進めてください。
 
-1. Issueに記載されている内容を理解する
-2. mainにチェックアウトし、pullを行い、最新のリモートの状態を取得する
-3. Issueの内容を元に、適切な命名でブランチを作成、チェックアウトする
-4. Issueの内容を実現するために必要なタスクをTDD（テスト駆動開発）に基づいて遂行する
-6. テストとLintを実行し、すべてのテストが通ることを確認する
-7. コミットを適切な粒度で作成する
-8. 以下のルールに従ってPRを作成する
-    - PRのdescriptionのテンプレートは @.github/PULL_REQUEST_TEMPLATE.md を参照し、それに従うこと
-    - PRのdescriptionのテンプレート内でコメントアウトされている箇所は必ず削除すること
-    - PRのdescriptionには`Closes #$ARGUMENTS`と記載すること
+  1. $ARGUMENTS の内容を、読み解いてバグを報告してください。
+  2. ユーザーの設計がOKでたら、.github/ISSUE_TEMPLATE/bug_report.md を元にTDDができるように文書を作成する。
+  3. 上記の作成が完了したら、gh issue create を利用して、ISSUEを作成してください。
+  4. 設計途上での、tempファイルはクリアする。
