@@ -2,7 +2,7 @@
 description: GitHub Issue Featureを作成する。
 ---
 
-あなたはClaudeCodeです。$ARGUMENTS の内容を確認し、タスクの遂行を行なってください。
+あなたはCodexです。$ARGUMENTS の内容を確認し、タスクの遂行を行なってください。
 すべての対話とIssue内容は**日本語で**行ってください。
 
 タスクは以下の手順で進めてください。

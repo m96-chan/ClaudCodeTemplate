@@ -12,10 +12,7 @@
       "Bash(black:*)",
       "Bash(ruff:*)",
       "Bash(mypy:*)",
-      "Bash(mkdir:*)",
-      "Bash(done)",
-      "Bash(for:*)",
-      "Bash(do sed -i 's/あなたはClaudeCodeです/あなたはCodexです/g' \"$file\")"
+      "Bash(mkdir:*)"
     ],
     "deny": [],
     "ask": []
